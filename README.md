@@ -65,7 +65,7 @@ Cada perfil institucional possui templates de linguagem próprios, refletindo va
 
 O fine-tuning do `pysentimiento/robertuito-sentiment-analysis` foi realizado sobre uma base inicial de ~725 postagens sintéticas.
 
-**Resultado observado:** convergência para F1-Macro 1.0000 a partir da época 2 — identificado como **overfitting**, dado o tamanho reduzido do dataset e a regularidade dos templates de geração.
+**Resultado observado:** convergência para F1-Macro 1.0000 a partir da época 2, identificado como **overfitting**, dado o tamanho reduzido do dataset e a regularidade dos templates de geração.
 
 **Plano de mitigação:** expansão da base para ~2.500 postagens com maior diversidade de temas e variações de template, seguida de re-treinamento com monitoramento de validação.
 
