@@ -1,23 +1,25 @@
+# Frameworks e Bibliotecas utilizadas
+
 # NLP & Transformers
 transformers>=4.38.0
 datasets>=2.18.0
 pysentimiento>=0.7.0
 torch>=2.0.0
 
-# Data
+# Manipulação de Dados
 pandas>=2.0.0
 numpy>=1.26.0
 scikit-learn>=1.4.0
 
-# Notebooks
+# Notebooks para Relatórios
 jupyter>=1.0.0
 ipykernel>=6.0.0
 
-# Visualização
+# Visualização de Dados (Análise Exploratória)
 matplotlib>=3.8.0
 seaborn>=0.13.0
 
-# Protótipo (em andamento)
+# Protótipo do Dashboard (em andamento)
 streamlit>=1.32.0
 fastapi>=0.110.0
 uvicorn>=0.29.0
