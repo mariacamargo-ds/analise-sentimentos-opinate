@@ -1,4 +1,4 @@
-# 🗳️ Dashboard Interativo Opinate: Análise de Sentimentos em Debates Políticos Acadêmicos
+# Dashboard Interativo Opinate: Análise de Sentimentos em Debates Políticos Acadêmicos
 
 > Projeto Integrador III — Ciência de Dados | Fatec Cotia  
 > Parceria com a plataforma **[Opinate](https://opinate.com.br)** (Neo Reformata)
