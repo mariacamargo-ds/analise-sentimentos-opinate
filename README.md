@@ -88,7 +88,8 @@ Interface que aplica o pipeline completo num ambiente de uso real, com identidad
 
 Modo claro/escuro disponível, com identidade visual e navegação customizadas.
 
-Confira o protótipo na plataforma Streamlit: 
+Confira o Protótipo Interativo em:
+[https://mariacamargo-ds-opinate-academico.app](https://opinateacademico20260620.streamlit.app)
 
 ### Como rodar localmente
 
@@ -110,7 +111,7 @@ streamlit run app.py
 
 O app abre automaticamente em `http://localhost:8501`.
 
-> ⚠️ O modelo fine-tunado (`modelo_finetuned/`) não está incluso no repositório por tamanho. Rode o notebook `finetuning_pysent.ipynb` para gerá-lo localmente, ou o app usa o modelo pysentimiento original como fallback.
+> O modelo fine-tunado (`modelo_finetuned/`) não está incluso no repositório por tamanho. Rode o notebook `finetuning_pysent.ipynb` para gerá-lo localmente, ou o app usa o modelo pysentimiento original como fallback.
 
 ---
 
