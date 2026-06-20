@@ -9,7 +9,7 @@
 
 A **Opinate** é uma plataforma de debates políticos para o ambiente acadêmico, livre de manipulação algorítmica — sem bots, sem engajamento artificial, sem bolhas de filtro.
 
-Este projeto aplica **Processamento de Linguagem Natural (NLP)** sobre textos de debate político em português brasileiro, classificando automaticamente o sentimento (positivo, negativo, neutro) de postagens universitárias sintéticas — e entrega essa análise num **protótipo interativo em Streamlit**, com camada adicional de insight contextual via IA generativa.
+Este projeto aplica **Processamento de Linguagem Natural (NLP)** sobre textos de debate político em português brasileiro, classificando automaticamente o sentimento (positivo, negativo, neutro) de postagens universitárias sintéticas, e entrega essa análise num **protótipo interativo em Streamlit**, com camada adicional de insight contextual via IA generativa.
 
 A motivação técnica: **não existe dataset público rotulado para "debate político acadêmico em PT-BR"**. O projeto preenche essa lacuna com geração de dados sintéticos orientada a domínio, fine-tuning de um transformer especializado em português, e um painel de visualização que transforma os resultados em decisão.
 
