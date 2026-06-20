@@ -197,4 +197,4 @@ Estudantes de Ciência de Dados · Fatec Cotia
 
 [GitHub – Maria Camargo](https://github.com/mariacamargo-ds)
 
-[GitHub – Yghor Andrade](https://github.com/mariacamargo-ds)
+[GitHub – Yghor Andrade](https://github.com/andradeyghor)
