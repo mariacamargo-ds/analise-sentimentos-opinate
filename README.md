@@ -191,7 +191,7 @@ Desenvolvido como **Projeto Integrador III** no curso de Tecnologia em Ciência 
 
 ## Autores
 
-**Maria Camargo e Yghor Andrade**
+**Maria Eduarda da Cruz de Camargo e Yghor Kristian Andrade**
 
 Estudantes de Ciência de Dados · Fatec Cotia
 
