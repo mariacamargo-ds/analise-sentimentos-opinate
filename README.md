@@ -188,7 +188,7 @@ Desenvolvido como **Projeto Integrador III** no curso de Tecnologia em Ciência 
 
 ---
 
-## Autora
+## Autores
 
 **Maria Camargo e Yghor Andrade**
 
