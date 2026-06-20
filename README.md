@@ -9,7 +9,7 @@
 
 A **Opinate** é uma plataforma de debates políticos para o ambiente acadêmico, livre de manipulação algorítmica — sem bots, sem engajamento artificial, sem bolhas de filtro.
 
-Este projeto aplica **Processamento de Linguagem Natural (NLP)** sobre textos de debate político em português brasileiro, classificando automaticamente o sentimento (positivo, negativo, neutro) de postagens universitárias sintéticas — e entrega essa análise num **protótipo interativo em Streamlit**, com camada adicional de insight contextual via IA generativa.
+Este projeto aplica **Processamento de Linguagem Natural (NLP)** sobre textos de debate político em português brasileiro, classificando automaticamente o sentimento (positivo, negativo, neutro) de postagens universitárias sintéticas, e entrega essa análise num **protótipo interativo em Streamlit**, com camada adicional de insight contextual via IA generativa.
 
 A motivação técnica: **não existe dataset público rotulado para "debate político acadêmico em PT-BR"**. O projeto preenche essa lacuna com geração de dados sintéticos orientada a domínio, fine-tuning de um transformer especializado em português, e um painel de visualização que transforma os resultados em decisão.
 
@@ -44,8 +44,8 @@ Avaliação comparativa de modelos multilíngues/PT-BR sobre o dataset **TweetSe
 
 | Modelo | F1-Macro | Decisão |
 |---|---|---|
-| `cardiffnlp/twitter-xlm-roberta-base-sentiment` | — | ❌ Descartado |
-| `distilbert-base-multilingual-cased` | — | ❌ Descartado |
+| `cardiffnlp/twitter-xlm-roberta-base-sentiment` | 0.7092 | ❌ Descartado |
+| `distilbert-base-multilingual-cased` | 0.4086 | ❌ Descartado |
 | `pysentimiento/robertuito-sentiment-analysis` | **0.8897** | ✅ **Eleito** |
 
 **Por que o pysentimiento?** O RoBERTuito foi pré-treinado sobre 500 milhões de tweets em espanhol e português, tornando-o estruturalmente mais adequado ao domínio informal de redes sociais em PT-BR — exatamente o registro presente nos debates da Opinate.
