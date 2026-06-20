@@ -44,8 +44,8 @@ Avaliação comparativa de modelos multilíngues/PT-BR sobre o dataset **TweetSe
 
 | Modelo | F1-Macro | Decisão |
 |---|---|---|
-| `cardiffnlp/twitter-xlm-roberta-base-sentiment` | — | ❌ Descartado |
-| `distilbert-base-multilingual-cased` | — | ❌ Descartado |
+| `cardiffnlp/twitter-xlm-roberta-base-sentiment` | 0.7092 | ❌ Descartado |
+| `distilbert-base-multilingual-cased` | 0.4086 | ❌ Descartado |
 | `pysentimiento/robertuito-sentiment-analysis` | **0.8897** | ✅ **Eleito** |
 
 **Por que o pysentimiento?** O RoBERTuito foi pré-treinado sobre 500 milhões de tweets em espanhol e português, tornando-o estruturalmente mais adequado ao domínio informal de redes sociais em PT-BR — exatamente o registro presente nos debates da Opinate.
